@@ -1,0 +1,4 @@
+
+ Round:1; Probability: 0; Unsat; TotalCost: 0.0803689956665039 p: 448 cnf: 1553
+ Round:1; Probability: 1; Unsat; TotalCost: 0.06382560729980469 p: 495 cnf: 1645
+ Round:1; Probability: 2; Sat; TotalCost: 0.08578658103942871 p: 540 cnf: 1733
