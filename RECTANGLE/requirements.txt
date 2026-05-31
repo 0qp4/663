@@ -1,0 +1,28 @@
+# RECTANGLE Key Differential Cryptanalysis - Dependencies
+#
+# A standalone SAT-based framework for related-key differential cryptanalysis
+# of the RECTANGLE lightweight block cipher.
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+
+# ============ Core Dependencies ============
+numpy>=1.21.0
+
+# ============ SAT Solver Interface ============
+# python-sat provides interface to various SAT solvers
+python-sat>=1.8.dev16
+
+# ============ Optional: SAT Solver Backend ============
+# Cadical (recommended, open source SAT solver)
+# Download from: https://github.com/arminbiere/cadical
+# Place the binary (cadical or cadical195) in your system PATH
+
+# ============ Optional: Resource Monitoring ============
+# For CPU/RAM usage tracking during solving
+psutil>=5.9.0
+
+# ============ Optional: Visualization ============
+# Only needed if you use visualization features
+matplotlib>=3.7.1
